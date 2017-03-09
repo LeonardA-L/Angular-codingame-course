@@ -2,7 +2,7 @@
 cp -R /project/answer/* /project/target/
 cd /project/target/
 npm install -g gulp lodash
-gulp serve &
+gulp
 echo ""
-echo "CG> open --port 3000 /"
+echo "CG> open --static-dir /project/target/root/dist/index.html"
 sleep 1000
