@@ -9,4 +9,4 @@ projects:
    root: root
    runner:
     name: leonardal/npm-gulp-runner
-    version: latest
+    version: 1.0
