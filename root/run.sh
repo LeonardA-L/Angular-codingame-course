@@ -1,7 +1,9 @@
 #!/bin/bash
-cp -R /project/answer/* /project/target/
+#npm install -g gulp lodash
+
+
 cd /project/target/
-npm install -g gulp lodash
+cp -R /project/answer/* /project/target/
 gulp
 echo ""
 echo "CG> open --static-dir /project/target/dist /index.html"

@@ -8,5 +8,5 @@ projects:
   angular2:
    root: root
    runner:
-    name: codingame/node-npm-runner
-    version: 0.0
+    name: leonardal/npm-gulp-runner
+    version: latest
