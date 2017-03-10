@@ -3,7 +3,8 @@ import {Todo} from './../stores/todo-store';
 
 @Component({
   selector: 'todo-item',
-  templateUrl: 'app/todoitem/todoitem.html'
+  templateUrl: 'app/todoitem/todoitem.html',
+  styleUrls: ['app/todoitem/todoitem.css']
 })
 export class TodoItem {
   @Input()
