@@ -8,24 +8,22 @@ html{
   background: url('https://images.unsplash.com/photo-1474861644511-0f2775ae97cc?dpr=1&auto=compress,format&fit=crop&w=900&h=600&q=80&cs=tinysrgb&crop=') center center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   height: 100vh;
 }
 
 body {
   font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  line-height: 1.4em;
+  line-height: 1.3em;
+  font-weight: 300;
   
   color: #4d4d4d;
   min-width: 230px;
-  max-width: 550px;
+  max-width: 500px;
   margin: 0 auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-font-smoothing: antialiased;
-  font-smoothing: antialiased;
-  font-weight: 300;
 }
-
+/*
 button,
 input[type="checkbox"] {
   outline: none;
-}
+}*/
