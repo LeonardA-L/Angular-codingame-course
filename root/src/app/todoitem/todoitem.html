@@ -1,7 +1,7 @@
 <div class="view">
   <label>
   	<input type="checkbox" />
-    <span>{{item.text}}</span>
+    <span>{{item.text}}{{item.done}}</span>
   </label>
-  <button (click)="doneClicked()" class="destroy"></button>
+  <button (click)="destroyClicked()" class="destroy"></button>
 </div>

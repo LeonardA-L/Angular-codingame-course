@@ -9,7 +9,7 @@
   	<ul class="todo-list">
 	  <template ngFor #item [ngForOf]="store.items">
 		<li>
-			<todo-item [item]="item" (done)="removeItem($event)"></todo-item>
+			<todo-item [item]="item" (destroy)="removeItem($event)"></todo-item>
 		</li>
 	  </template>
 	</ul>
