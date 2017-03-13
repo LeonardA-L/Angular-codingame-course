@@ -117,9 +117,5 @@ button {
 .todo-list li {
   position: relative;
   font-size: 24px;
-  margin: 4px 0;
-  background: #FFF;
-  padding: 4px;
-  width: 90%;
-  float: left;
+  margin: 8px 0;
 }

@@ -11,13 +11,15 @@ export class TodoItem {
   item: Todo;
 
   @Output()
-  done = new EventEmitter();
-
-  @Output()
   destroy = new EventEmitter();
 
   destroyClicked() {
     console.log('Destroy');
     this.destroy.next(this.item);
+  }
+
+  doneClicked() {
+    console.log('Done');
+    this.item.done = !this.item.done;
   }
 }

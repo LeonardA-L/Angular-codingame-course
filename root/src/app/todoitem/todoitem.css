@@ -1,0 +1,44 @@
+label input, label {
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.done label {
+  color: #191e54;
+  text-decoration: line-through;
+}
+
+.destroy {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  font-size: 30px;
+  color: #879cfb;
+  border: 0;
+  float: right;
+  transition: color 0.2s;
+  background-color: transparent;
+  cursor: pointer;
+  line-height: 0.6em;
+  margin-top: -4px;
+}
+
+.destroy:hover {
+  color: #212f98;
+}
+
+.destroy:after {
+  content: '×';
+}
+
+.view {
+  background: #FFF;
+  padding: 4px;
+  width: 90%;
+  transition: margin-left 0.2s;
+}
+
+.done {
+  margin-left: 42px;
+  background: rgba(15, 41, 156, 0.73);
+}
