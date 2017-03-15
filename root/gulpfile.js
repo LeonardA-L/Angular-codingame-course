@@ -47,11 +47,13 @@ gulp.task('compile', ['clean'], function () {
 });
 
 // linting
+/*
 gulp.task('tslint', function(){
   return gulp.src(paths.srcTsFiles)
     .pipe(tslint())
     .pipe(tslint.report('verbose'));
 });
+*/
 
 // Run browsersync for development
 gulp.task('serve', ['build'], function() {
@@ -64,6 +66,6 @@ gulp.task('serve', ['build'], function() {
   gulp.watch(paths.srcFiles, ['buildAndReload']);
 });
 
-gulp.task('build', ['tslint', 'clean', 'compile', 'copy:libs', 'copy:assets']);
+gulp.task('build', [/*'tslint', */'clean', 'compile', 'copy:libs', 'copy:assets']);
 gulp.task('buildAndReload', ['build'], reload);
 gulp.task('default', ['build']);
