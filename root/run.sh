@@ -13,9 +13,10 @@
 
 cd /project/target/
 
+echo ""
+echo "CG> redirect-streams --input \"err\" --pattern \".*TS2304.*\" null"
+
 gulp
 
 # mv /tmp/angular-project.zip /project/target/dist
-echo ""
-echo "CG> redirect-streams -p .*TS2304.* null"
 echo "CG> open --static-dir /project/target/dist /index.html"
