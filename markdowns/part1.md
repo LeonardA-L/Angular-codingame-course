@@ -11,3 +11,5 @@ This left panel is here to display the actual course content. It's markdown base
 For this example course, the provided sources make a complete Todo App, but the goal for a normal tutorial would be to provide a basis for the learner and instructions on how to code the rest, and the end result would be a complete Todo App.
 
 This course only has one lesson, but we do support making multiple lessons into one course.
+
+Full CodinGame source (including the full angular source) is [available on github](https://github.com/LeonardA-L/Angular-codingame-course)
