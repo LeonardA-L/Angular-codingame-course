@@ -12,4 +12,4 @@ For this example course, the provided sources make a complete Todo App, but the 
 
 This course only has one lesson, but we do support making multiple lessons into one course.
 
-Full CodinGame source (including the full angular source) is [available on github](https://github.com/LeonardA-L/Angular-codingame-course)
+Full CodinGame source (including the full angular source) is [available on github](https://github.com/LeonardA-L/Angular-codingame-course) 
