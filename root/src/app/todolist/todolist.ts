@@ -6,29 +6,23 @@ import {TodoItem} from './../todoitem/todoitem';
   selector: 'todo-list',
   templateUrl: 'app/todolist/todolist.html',
   styleUrls: ['app/todolist/todolist.css'],
-  directives: [TodoItem]
+  directives: [TodoItem]  // This component requires the following directives
 })
+
 export default class ToDoList {
   newItem = '';
   store: TodoStore;
 
-  constructor(store: TodoStore) {
+  constructor(store: TodoStore) {  // A TodoStore object is injected upon instanciating the component
     this.store = store;
-    console.log(this.store);
   }
 
   addItem() {
-    console.log(this.newItem);
     this.store.addItem(this.newItem);
     this.newItem = '';
   }
 
   removeItem(event: any) {
-    console.log(event);
     this.store.removeItem(event);
   }
-  /*itemChanged(event) {
-    const target = <HTMLInputElement> event.target;
-    this.newItem = target.value;
-  }*/
 }

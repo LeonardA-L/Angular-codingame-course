@@ -1,8 +1,10 @@
+// The model class of a Todo item
 export class Todo {
   text: String;
   done: Boolean;
 }
 
+// The class for a Todo store
 export class TodoStore {
   items: Todo[];
 
@@ -15,7 +17,6 @@ export class TodoStore {
   }
 
   removeItem(item: any) {
-    console.log(item);
     this.items.splice(this.items.indexOf(item), 1);
   }
 }
