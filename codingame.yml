@@ -1,9 +1,7 @@
-title : Content name
+title : Angular
 plan:
-  - title: Part 1
+  - title: Todo App with Angular
     statement: markdowns/part1.md
-  - title: Part 2
-    statement: markdowns/part2.md
 projects:
   angular2:
    root: root

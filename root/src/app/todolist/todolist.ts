@@ -23,7 +23,7 @@ export default class ToDoList {
     this.newItem = '';
   }
 
-  removeItem(event) {
+  removeItem(event: any) {
     console.log(event);
     this.store.removeItem(event);
   }

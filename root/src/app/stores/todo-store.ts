@@ -14,7 +14,7 @@ export class TodoStore {
     this.items.push({text: newItem, done: false});
   }
 
-  removeItem(item) {
+  removeItem(item: any) {
     console.log(item);
     this.items.splice(this.items.indexOf(item), 1);
   }
